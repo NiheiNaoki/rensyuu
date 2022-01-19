@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NiheiNaokiのポートフォリオサイト</title>
+  <link rel="icon" href="../img/favicon.png">
+  <link rel="stylesheet" href="../../../CSS/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header id="header">
+    <h1 class="site-title wrapper">
+      <a href="../html/index.html"><img src="../img/logo.png" alt="Nihei工房"></a>
+    </h1>
+    <nav id="navi">
+      <ul class="wrapper">
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="mainvisual" class="wrapper">
+    <img src="../img/tree-838667_960_720.webp" alt="メインビジュアル">
+  </div>
+  <div id="container" class="wrapper">
+    <main>
+      <section id="works">
+        <h2 class="main-title">Works</h2>
+        <div>
+          <a href="#"><img src="../img/macro-1452987_960_720.webp" alt="勤怠管理アプリ"></a>
+          <h3>勤怠管理アプリ</h3>
+        </div>
+        <div>
+          <a href="#"><img src="../img/typewriter-5065594_960_720.jpg" alt="何かのアプリ"></a>
+          <h3>何かのアプリ</h3>
+        </div>
+        <div>
+          <a href="#"><img src="../img/macro-1452987_960_720.webp" alt="何かのアプリ"></a>
+          <h3>何かのアプリ</h3>
+        </div>
+        <div>
+          <a href="#"><img src="../img/moon-4919501_960_720.webp" alt="何かのアプリ"></a>
+          <h3>何かのアプリ</h3>
+        </div>
+      </section>
+        
+    </main>
+    <aside>
+      <section id="about">
+        <h2 class="side-title">About</h2>
+        <img src="../img/dragon-1222072_960_720.jpg" alt="自画像">
+        <h3 class="side-text">仁平 直貴</h3>
+        <div class="profile">
+          <p>
+            茨城県在住の３０代、男性です。<br>
+            ドットインストールやYouTube動画などを参考に、独学でプログラミングを学習しました。<br>
+            目標は自信が考案したアプリで、誰かの生活に必要とされるモノを作ることです。
+          </p>
+          <dl>
+            <dt>スキル</dt>
+            <dd>HTML　CSS　JAVAScript　PHP</dd>
+            <dt>資格</dt>
+            <dd>日商簿記2級<br>
+                MOS Excel エキスパート</dd>
+          </dl>
+        </div>
+        
+
+      </section>
+
+      <section id="blog">
+        <h2 class="side-title">Blog</h2>
+        
+      </section>
+      <section id="contact">
+        <h2 class="side-title">Contact</h2>
+        <div class="contact-form">
+          <form action="#">
+            <dl>
+
+              <dt>
+                <label for="name">Name:</label>
+              </dt>
+              <dd>
+                <input type="text" id="name" name="your-name">
+              </dd>
+
+              <dt>
+                <label for="email">Mail:</label>
+              </dt>
+              <dd>
+                <input type="email" id="email" name="your-mail">
+              </dd>
+
+              <dt>
+                <label for="message">Message:</label>
+              </dt>
+              <dd>
+                <textarea id="message" name="your-message"></textarea>
+              </dd>
+            </dl>
+            <div class="button">
+              <input type="submit" value="SEND">
+            </div>
+          </form>
+
+        </div>
+        
+      </section>
+      
+    </aside>
+      
+      
+  </div>
+
+    <footer id="footer">
+      <div class="content wrapper">
+        <div class="item">
+          <h2 class="footer-title">About</h2>
+          <p>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+
+        <div class="item">
+          <h2 class="footer-title">Menu</h2>
+          <ul class="menu-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="">
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  
+</body>
+<div></div>
+</html>
